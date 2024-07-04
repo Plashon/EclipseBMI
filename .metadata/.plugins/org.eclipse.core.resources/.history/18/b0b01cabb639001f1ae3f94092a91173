@@ -1,0 +1,16 @@
+import com.npru.se65.id011.HumanBeing;
+import com.npru.se65.id011.BmiIndexer;
+
+public class TestDrive {
+
+	public static void main(String[] args) {
+		HumanBeing hb1 = new HumanBeing();
+		hb1.setHeight(1.65);
+		hb1.setWeight(60);
+		BmiIndexer bii1 = new BmiIndexer();
+		hb1.setBmi(bii1.calculateBMI(hb1.getHeight(), hb1.getWeight()));
+		System.out.println(hb1.getBmi());
+	}
+
+	
+}

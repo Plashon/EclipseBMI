@@ -1,0 +1,12 @@
+import com.npru.se65.id011.HumanBeing;
+
+public class TestDrive {
+
+	public static void main(String[] args) {
+		HumanBeing hb1 = new HumanBeing();
+		hb1.setHeight(165);
+		hb1.setWeight(60);
+	}
+
+	
+}
